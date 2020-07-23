@@ -3,8 +3,9 @@ FontName: NahuatlX
 FullName: Nahuatl X
 FamilyName: NahuatlX
 Weight: Regular
-Copyright: 
-Version: 2020-03
+Copyright: GNU General Public License v2.0
+UComments: "This font is based on Edward H. Trager's Nahuatl One font.+AAoA-http://unifont.org/nahuatl/"
+Version: 2020-07
 StrokeWidth: 10
 ItalicAngle: 0
 UnderlinePosition: -1
@@ -24,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1464015724
-ModificationTime: 1595482038
+ModificationTime: 1595486445
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +65,7 @@ DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 20
-WinInfo: 0 10 5
+WinInfo: 0 8 2
 BeginPrivate: 6
 BlueValues 13 [-55 0 90 98]
 StemSnapH 5 [9 9]

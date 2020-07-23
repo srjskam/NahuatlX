@@ -23,7 +23,7 @@ font = fontforge.open(args.infile)
 font.strokedfont = False
 print args.name, args.family, '-------'
 if args.name != "":
-    font.fontname = args.name
+    font.fontname = args.name.replace(' ','')
     font.fullname = args.name
 if args.family != "":
     font.familyname = args.family

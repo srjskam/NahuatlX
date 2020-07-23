@@ -6,9 +6,9 @@ install: Nahuatl_X.ttf Nahuatl_X_thin.ttf
 	cp $^ ~/.local/share/fonts
 
 Nahuatl_outlined.sfd:
-	./outlines.py --name "NahuatlX" --family "NahuatlX" --weight "Regular" --width 17 --height 7 Nahuatl.sfd $@
+	./outlines.py --name "Nahuatl X" --family "NahuatlX" --weight "Regular" --width 17 --height 7 Nahuatl.sfd $@
 Nahuatl_thin_outlined.sfd:
-	./outlines.py --name "NahuatlXthin" --family "NahuatlXthin" --weight "Thin" --width 10 --height 7 Nahuatl.sfd $@
+	./outlines.py --name "Nahuatl X thin" --family "NahuatlXthin" --weight "Thin" --width 10 --height 7 Nahuatl.sfd $@
 
 %.ttf: %.sfd
 	fontforge -lang=ff -c "Open(\"$<\");Generate(\"$@\");Close()"
