@@ -1,5 +1,5 @@
 # NahuatlX
-A font in two weights for on Edward H. Trager's Nahuatl writing system (http://unifont.org/nahuatl/), based on his font Nahuatl One.
+A font in two weights for Edward H. Trager's Nahuatl writing system (http://unifont.org/nahuatl/), based on his font Nahuatl One.
 
 # Installation
 
